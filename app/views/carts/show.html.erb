@@ -1,10 +1,21 @@
 <section class="cart-show">
-
   <header class="page-header">
     <h1>My Cart</h1>
   </header>
 
   <div class="panel panel-default items">
+  <% if enhanced_cart.empty? %>
+      <h1>Sorry, but your cart still empty</h1>
+    <% else %>
+    <% enhanced_cart.each %>
+    <% end %>
+    
+    <form action="/"> 
+      <button type="submit" class="stripe-button-el margin-bottom-class"  style=visibility: visible; >
+      <span style="display: block; min-height: 30px;">Return</span>
+      </button>
+    </form>
+
     <table class="table table-bordered">
       <thead>
         <tr>
@@ -16,6 +27,7 @@
       </thead>
       <tbody>
         <% enhanced_cart.each do |item| %>
+
           <%= render 'item', product: item[:product], quantity: item[:quantity].to_i %>
         <% end %>
       </tbody>
