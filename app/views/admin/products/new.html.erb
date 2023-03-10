@@ -54,9 +54,18 @@
           <%= form.label :image %>
           <%= form.file_field :image %>
         </div>
-
+        
         <%= form.submit 'Create Product', class: 'btn btn-primary' %>
+
+        
+        
+
       <% end %>
+      <form action="/admin/categories"> 
+      <button type="submit" class='btn btn-primary'>
+          Create category
+      </button>
+      </form>
     </div>
   </div>
 
