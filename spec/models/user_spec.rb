@@ -88,7 +88,7 @@ RSpec.describe User, type: :model do
       end
 
       it "It should authenticate with wrong case email" do 
-        @user = User.create(name: "Test", last_name: "Test", email: "test@test.com", password: "testing", password_confirmation: "testing")
+        @user = User.create(name: "Test", last_name: "Test", email: "tESt@test.com", password: "testing", password_confirmation: "testing")
         @user.save 
         expect(User.authenticate_with_credentials("test@TeST.com",@user.password)).to eq(@user)
       end
