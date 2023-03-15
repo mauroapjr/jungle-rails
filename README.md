@@ -4,19 +4,19 @@ A mini e-commerce application built with Rails 6.1
 
 ## Home page
 
-![architecture](https://github.com/jungle-rails/app/assets/images/Jungle_home.JPG)
+![architecture](https://github.com/mauroapjr/jungle-rails/blob/master/public/images/Jungle_home.JPG)
 
 ## Products page
 
-![architecture](https://github.com/jungle-rails/app/assets/images/Jungle_products.JPG)
+![architecture](https://github.com/mauroapjr/jungle-rails/blob/master/public/images/Jungle_products.JPG)
 
 ## Cart page
 
-![architecture](https://github.com/jungle-rails/app/assets/images/Jungle_cart.JPG)
+![architecture](https://github.com/mauroapjr/jungle-rails/blob/master/public/images/Jungle_cart.JPG)
 
 ## Payment page
 
-![architecture](https://github.com/jungle-rails/app/assets/images/Jungle_payment.JPG)
+![architecture](https://github.com/mauroapjr/jungle-rails/blob/master/public/images/Jungle_payment.JPG)
 
 ## Setup
 
