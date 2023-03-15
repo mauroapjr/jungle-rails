@@ -2,6 +2,22 @@
 
 A mini e-commerce application built with Rails 6.1 
 
+## Home page
+
+![architecture](https://github.com/jungle-rails/app/assets/images/Jungle_home.JPG)
+
+## Products page
+
+![architecture](https://github.com/jungle-rails/app/assets/images/Jungle_products.JPG)
+
+## Cart page
+
+![architecture](https://github.com/jungle-rails/app/assets/images/Jungle_cart.JPG)
+
+## Payment page
+
+![architecture](https://github.com/jungle-rails/app/assets/images/Jungle_payment.JPG)
+
 ## Setup
 
 1. Run `bundle install` to install dependencies

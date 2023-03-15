@@ -14,7 +14,6 @@
 // Fonts
 // Global
 body {
-  // padding-top: 70px;
   font-size: 20px;
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -74,6 +73,7 @@ form.button_to {
     font-weight: 700;
   }
   h1 {
+    margin-top: 10px;
     line-height: 0.7;
     font-weight: 900;
     font-size: 6.5em;
@@ -114,7 +114,6 @@ form.button_to {
 
 .sold-out {
   display: flex;
-  //align-items: center;
   position: absolute;
   top: 0;
   left: 0;
@@ -125,3 +124,4 @@ form.button_to {
   border-bottom-right-radius: 10px;
   font-size: 1em;
 }
+
